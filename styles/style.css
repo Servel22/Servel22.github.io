@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+
+html{
+    background-color: #00A3E0;
+    background-image: linear-gradient(to right, #ffffff, #fafbff, #f2f9ff,
+    #e7f7ff, #dbf5fe, #d3f5fd, #ccf5fa, #c5f5f6, #bff7f7, #b9f9f7, #b2faf7, #acfcf6);
+}
+
+.welcome-title{
+    font-size: 70px;
+    color:rgb(65, 71, 176);
+    text-shadow: 0px 0px 100px #000000;
+    display: flex;
+}
+
+
+.welcome-title-box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: #514040 solid 5px;
+    width: 60%;
+}
+
+.welcome-text-box-inset{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(1, 15, 48);
+    text-shadow: 0px 0px 20px rgb(75, 81, 255);
+    width: 40%;
+    min-width: 30%;
+    margin: 50px;
+    margin-top: 30px;
+}
+
+.welcome-text-box-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 20px 20px 20px;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 10px #F9F7F1 inset;
+    border-radius: 30px;
+}
+
+.welcome-img{
+    width: 500px;
+    max-height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #F9F7F1;
+    margin-left: 20px;
+    display: flex;
+}
+
+.welcome-text{
+    margin-top: 20px;
+}
+
+.welcome__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__buttons .btn{
+    margin: 0;
+}
+
+.welcome__buttons-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.welcome__buttons{
+    padding: 15px 15px;
+    border-radius: 30px;
+    border: 1px solid #979694;
+    width: 250px;
+    transition: 300ms;
+}
+
+.welcome__buttons:hover{
+    box-shadow: 0px 0px 30px #00A3E0;
+}
+
+.welcome__link{
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.welcome__link:hover{
+    color: rgb(255, 1, 1);
+    text-shadow: 0px 0px 30px rgb(3, 220, 224);
+}
+
+.welcome__link::after{
+    position: absolute;
+    content: '';
+    top: 45%;
+    right: -20px;
+    width: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent #514040 #514040 transparent;
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.traditions-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #b2faf7;
+}
+
+.welcome__traditions-links{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    margin: 40px 3rem;
+}
+
+.welcome__traditions-link{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 50px;
+    transition: 300ms;
+    max-width: 300px;
+}
+
+
+.welcome__traditions-link:hover{
+    color: blueviolet;
+    text-shadow: 0px 0px 20px darkblue;
+}
+
+.section-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title{
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 500px;
+}
+
+.info__card-div-img{
+    margin: 5px;
+    max-width: 90%;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+
+
+.info__card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 100ms ease;
+    border-radius: 10%;
+}
+
+.info__card-text{
+    width: 300px;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.info__card-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.info__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 310px;
+    border: 1px solid #979694;
+    border-radius: 30px;
+    transition: 300ms;
+}
+
+.info__card:hover{
+    box-shadow: 0px 0px 50px #00305d;
+}
+
+.info__cards-box{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    max-width: 1300px;
+    margin: 30px 15%;
+}
+
+.section-subtitle{
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.section-title{
+    font-size: 30px;
+    border-bottom: 3px solid #514040;
+}
+
+.video{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.video__element{
+    border-radius: 35px;
+    border: #00305d solid 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.div1{
+    border-right: 3px solid white;
+    padding: 10px;
+}
+
+.div{
+    max-width: 30%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2-gmail, .div2-telegram, .div2-whatsapp{
+    padding: 5px;
+    color: #00A3E0;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.div2-gmail{
+    padding-top: 10px;
+}
+
+.div1-title{
+    padding: 15px;
+}
+
+.div2-gmail:hover{
+    text-decoration: double;
+    text-shadow: 0px 0px 30px rgb(124, 124, 199);
+    color: #b9f9f7;
+    cursor: pointer;
+}
+
+
+.div2-telegram:hover{
+    text-decoration: double;
+    text-shadow: 0px 0px 30px rgb(124, 124, 199);
+    color: #b9f9f7;
+    cursor: pointer;
+}
+
+.div2-whatsapp:hover{
+    text-decoration: double;
+    text-shadow: 0px 0px 30px rgb(124, 124, 199);
+    color: #b9f9f7;
+    cursor: pointer;
+}
+
+.sozd{
+    color: rgb(138, 255, 106);
+}
+
+.serais{
+    color: #00A3E0;
+}
+
+@media screen and (max-width: 920px) {
+    .welcome-text-box-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: center;
+    }
+
+    .welcome-text-box-inset{
+        width: 70%;
+    }
+
+    .welcome-title{
+        font-size: 60px;
+    }
+
+    .traditions-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome__traditions-links-1{
+        margin-bottom: 0;
+    }
+
+    .welcome-img{
+        width: 70%;
+    }
+
+    .video__element{
+        width: 100%;
+    }
+
+    .video_content{
+        width: 70%;
+        height: 30%;
+    }
+
+    .video{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video_top{
+        display: flex;
+        justify-content: center;
+    }
+
+    .video_top > h1{
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+

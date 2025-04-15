@@ -1,0 +1,3 @@
+var
+_0x3e1a=["\x48\x65\x6C\x6C\x6F"];
+console["\x6C\x6F\x67"](_0x3e1a[0]);
